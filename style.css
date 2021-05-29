@@ -1,0 +1,25 @@
+body, #btncontainer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    font-family: cursive;
+    width: 500px
+}
+
+.part1 {
+    font-size:40px;
+}
+
+.part2 {
+    font-size: 30px;
+}
+
+
+i {
+    cursor: pointer;
+}
