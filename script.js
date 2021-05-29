@@ -1,7 +1,7 @@
 function getNewJoke() {
     
     
-    fetch('https://v2.jokeapi.dev/joke/Any?type=twopart')
+     fetch('https://v2.jokeapi.dev/joke/Any?blacklistFlags=sexist&type=twopart') 
         .then(response => response.json())
         .then(data => {
             setup = data.setup
